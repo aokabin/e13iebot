@@ -9,4 +9,4 @@ module.exports = (robot) ->
 		if ///^@channel: ///i.test(msg.match[1])
 			return
 		else
-			msg.send "ここは連絡事項を書くためのチャンネルです、連絡事項は文頭に@channel: をつけて発言しましょう。"
+			msg.send "＜君ぃ･･･連絡事項は文頭に@channel: をつけないとダメじゃないか。それ以外の話は #random でやりたまえ。"
